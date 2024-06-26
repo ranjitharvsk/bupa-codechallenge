@@ -10,9 +10,6 @@ pip install pdm
 
 ``` bash
 pdm --help
-pdm add pandas
-pdm add pyspark
-
 ```
 
 ## how to run test file
@@ -58,7 +55,7 @@ Summary is writtten as a CSV file to this location  'outputDir/summary_rates.csv
 Used unittest package  to test teh class file.
 Coverage was also reported.
 ## Source files.
-Git source will be provided
+Git source: https://github.com/ranjitharvsk/bupa-codechallenge.git
 
 
 

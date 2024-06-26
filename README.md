@@ -10,9 +10,6 @@ pip install pdm
 
 ``` bash
 pdm --help
-pdm add pandas
-pdm add pyspark
-
 ```
 
 ## how to run test file

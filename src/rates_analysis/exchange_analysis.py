@@ -16,8 +16,6 @@ import pandas as pd
 
 class ExchangeAnalysis:
 
-    
-
     def __init__(self):
         # get spark session initialised.
         

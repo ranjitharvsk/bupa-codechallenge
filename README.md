@@ -16,14 +16,21 @@ pdm add pyspark
 ```
 
 ## how to run test file
+
+``` bash
 python -m unittest exchange_assess_test.py
+```
 
 ## how to run test file with coverage report
+
+``` bash
 python -m coverage run -m unittest exchange_assess_test.py
-## Run coverage report
-python -m coverage report -m
+```
+
 ## Run coverage report just for  exchange_analysis.py
+``` bash
 coverage report -m exchange_analysis.py
+```
 
 # SUBMISSION
 ###  Documentation – Approach, architecture, best standard followed in the coding etc

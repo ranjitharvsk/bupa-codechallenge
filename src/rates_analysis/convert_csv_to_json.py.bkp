@@ -5,7 +5,7 @@ import pyspark
 from pyspark.sql.session import SparkSession
 
 
-spark = SparkSession.builder.appName("APP_NAME").getOrCreate()
+spark = SparkSession.builder.appName("APP_NAME_2").getOrCreate()
 
 df_st = spark.read.csv("/Users/krayakota/development/projects/bupa-coding/src/rates_analysis/inputDir/exchange_rate_30days1.csv",header = True)
 df_st.show()

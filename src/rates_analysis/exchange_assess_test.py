@@ -12,7 +12,7 @@ class TestConsumer(unittest.TestCase):
 
         self.test = ExchangeAnalysis()
         self.dir = os.path.abspath(os.getcwd())
-    
+        
     def test_read_file(self):
 
         # exchange_rates_test_read_file.json

@@ -52,7 +52,7 @@ Python file is located in src folder: src/rates_analysis/exchange_analysis.py
 ## Output results as appropritate
 Summary is writtten as a CSV file to this location  'outputDir/summary_rates.csv'
 ## Testing scenario’s
-Used unittest package  to test teh class file.
+Used unittest package  to test the class file.
 Coverage was also reported.
 ## Source files.
 Git source: https://github.com/ranjitharvsk/bupa-codechallenge.git

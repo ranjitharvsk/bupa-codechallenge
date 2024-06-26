@@ -11,7 +11,7 @@ class TestConsumer(unittest.TestCase):
     def setUp(self):
 
         self.test = ExchangeAnalysis()
-        self.dir = os.path.abspath(os.path.dirname(__file__))
+        self.dir = os.path.abspath(os.getcwd())
     
     def test_read_file(self):
 

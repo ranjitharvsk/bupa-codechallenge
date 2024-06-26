@@ -129,9 +129,8 @@ class ExchangeAnalysis:
     
 test = ExchangeAnalysis()
 EX_RATES_FILE = "inputDir/exchange_rates.json"
-dir = os.path.abspath(os.path.dirname(__file__))
-# path = os.path.join(dir,"resources/exchange_rates_test_process.json")
-in_path = os.path.join(dir,EX_RATES_FILE)
-out_path = "outputDir/summary_rates.csv"
+dir = os.path.abspath(os.getcwd())
+in_path = os.path.join(dir, EX_RATES_FILE)
+out_path = os.path.join(dir, "outputDir/summary_rates.csv")
 df = test.process(in_path,out_path)
 

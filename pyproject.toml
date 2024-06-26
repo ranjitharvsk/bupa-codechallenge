@@ -1,0 +1,32 @@
+[project]
+name = "bupa-coding"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Kanthi R", email = "ranjitharvsk@gmail.com"},
+]
+dependencies = [
+    "requests>=2.32.3",
+    "spark>=0.2.1",
+    "pyspark>=3.1.2",
+    "python-version>=0.0.2",
+    "findspark>=2.0.1",
+    "Py4J>=0.10.9.7",
+    "pandas>=2.2.2",
+    "coverage>=7.5.4",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=8.2.2",
+]
